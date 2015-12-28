@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9A4DF33B1C313C8900286DE5 /* GraphicsStatesDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraphicsStatesDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A4DF33B1C313C8900286DE5 /* GraphicsStatesDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = GraphicsStatesDemo.app; path = "/Users/Yu/Desktop/GraphicsStatesDemo/build/Debug-iphoneos/GraphicsStatesDemo.app"; sourceTree = "<absolute>"; };
 		9A4DF33F1C313C8900286DE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9A4DF3411C313C8900286DE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9A4DF3421C313C8900286DE5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -43,16 +43,7 @@
 			isa = PBXGroup;
 			children = (
 				9A4DF33D1C313C8900286DE5 /* GraphicsStatesDemo */,
-				9A4DF33C1C313C8900286DE5 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		9A4DF33C1C313C8900286DE5 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				9A4DF33B1C313C8900286DE5 /* GraphicsStatesDemo.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		9A4DF33D1C313C8900286DE5 /* GraphicsStatesDemo */ = {
@@ -122,7 +113,7 @@
 				Base,
 			);
 			mainGroup = 9A4DF3321C313C8900286DE5;
-			productRefGroup = 9A4DF33C1C313C8900286DE5 /* Products */;
+			productRefGroup = 9A4DF3321C313C8900286DE5;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
