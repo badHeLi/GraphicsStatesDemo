@@ -20,6 +20,15 @@
 }
 
 
+/*
+ Quartz modifies the results of drawing operations according to the parameters in the current graphics state. The graphics state contains parameters that would otherwise be taken as arguments to drawing routines. Routines that draw to a graphics context consult the graphics state to determine how to render their results. For example, when you call a function to set the fill color, you are modifying a value stored in the current graphics state. Other commonly used elements of the current graphics state include the line width, the current position, and the text font size.
+ 
+ The graphics context contains a stack of graphics states. When Quartz creates a graphics context, the stack is empty. When you save the graphics state, Quartz pushes a copy of the current graphics state onto the stack. When you restore the graphics state, Quartz pops the graphics state off the top of the stack. The popped state becomes the current graphics state.
+ 
+ To save the current graphics state, use the function CGContextSaveGState to push a copy of the current graphics state onto the stack. To restore a previously saved graphics state, use the function CGContextRestoreGState to replace the current graphics state with the graphics state that’s on top of the stack.
+ */
+
+
 - (void)drawRect:(CGRect)rect {
     
     CGContextRef context = UIGraphicsGetCurrentContext();
