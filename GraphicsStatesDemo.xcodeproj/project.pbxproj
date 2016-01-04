@@ -13,10 +13,10 @@
 		9A4DF3491C313C8900286DE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A4DF3471C313C8900286DE5 /* Main.storyboard */; };
 		9A4DF34B1C313C8900286DE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A4DF34A1C313C8900286DE5 /* Assets.xcassets */; };
 		9A4DF34E1C313C8900286DE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A4DF34C1C313C8900286DE5 /* LaunchScreen.storyboard */; };
+		9A527E211C3A097100B1F6CE /* QuartzView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A527E201C3A097100B1F6CE /* QuartzView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9A4DF33B1C313C8900286DE5 /* GraphicsStatesDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = GraphicsStatesDemo.app; path = "/Users/Yu/Desktop/GraphicsStatesDemo/build/Debug-iphoneos/GraphicsStatesDemo.app"; sourceTree = "<absolute>"; };
 		9A4DF33F1C313C8900286DE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9A4DF3411C313C8900286DE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9A4DF3421C313C8900286DE5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +26,9 @@
 		9A4DF34A1C313C8900286DE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A4DF34D1C313C8900286DE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A4DF34F1C313C8900286DE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A527E1E1C3A017500B1F6CE /* GraphicsStatesDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraphicsStatesDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A527E1F1C3A097100B1F6CE /* QuartzView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuartzView.h; sourceTree = "<group>"; };
+		9A527E201C3A097100B1F6CE /* QuartzView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuartzView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +46,7 @@
 			isa = PBXGroup;
 			children = (
 				9A4DF33D1C313C8900286DE5 /* GraphicsStatesDemo */,
+				9A527E1E1C3A017500B1F6CE /* GraphicsStatesDemo.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,6 +57,8 @@
 				9A4DF3421C313C8900286DE5 /* AppDelegate.m */,
 				9A4DF3441C313C8900286DE5 /* ViewController.h */,
 				9A4DF3451C313C8900286DE5 /* ViewController.m */,
+				9A527E1F1C3A097100B1F6CE /* QuartzView.h */,
+				9A527E201C3A097100B1F6CE /* QuartzView.m */,
 				9A4DF3471C313C8900286DE5 /* Main.storyboard */,
 				9A4DF34A1C313C8900286DE5 /* Assets.xcassets */,
 				9A4DF34C1C313C8900286DE5 /* LaunchScreen.storyboard */,
@@ -87,7 +93,7 @@
 			);
 			name = GraphicsStatesDemo;
 			productName = GraphicsStatesDemo;
-			productReference = 9A4DF33B1C313C8900286DE5 /* GraphicsStatesDemo.app */;
+			productReference = 9A527E1E1C3A017500B1F6CE /* GraphicsStatesDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -141,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A4DF3461C313C8900286DE5 /* ViewController.m in Sources */,
+				9A527E211C3A097100B1F6CE /* QuartzView.m in Sources */,
 				9A4DF3431C313C8900286DE5 /* AppDelegate.m in Sources */,
 				9A4DF3401C313C8900286DE5 /* main.m in Sources */,
 			);
@@ -204,7 +211,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -241,7 +248,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -253,6 +260,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GraphicsStatesDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.heli.GraphicsStatesDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -264,6 +272,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GraphicsStatesDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.heli.GraphicsStatesDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -289,6 +298,7 @@
 				9A4DF3541C313C8900286DE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
